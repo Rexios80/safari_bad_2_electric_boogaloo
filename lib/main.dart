@@ -12,10 +12,13 @@ class SafariBad extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: const Text('Safari Bad')),
-        body:  Center(
-          child: Column(children: [
-            CircularProgressIndicator(),
-          ]),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: const [
+              CircularProgressIndicator(),
+            ],
+          ),
         ),
       ),
     );
